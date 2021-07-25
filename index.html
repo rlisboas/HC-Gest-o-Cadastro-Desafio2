@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HC #2</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+</head>
+<body>
+    
+    <div class="head">
+        <div class="legend">
+            <img src="./img/Gama.png">
+        </div>
+    </div>
+
+    <div class="container-banner">
+        <div class="center"></div>
+    </div>
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>CADASTRO DE CLIENTES</b></legend>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" id="nome" class="labelInput">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cpf" id="cpf" class="inputUser" required>
+                    <label for="cpf" id="cpf" class="labelInput">CPF</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <br>
+                    <label for="dataNascimento"><b>Data de Nascimento:</b></label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" required>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="tel" id="tel" class="inputUser" required>
+                    <label for="tel"class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email"class="labelInput">E-mail</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>                
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="feminino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="feminino">Outro</label>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+
+    
+    <div class="box2">
+        <form action="">
+            <fieldset>
+                <legend><b>CADASTRO DE PRODUTOS</b></legend>
+                <br><br>
+                <div class="inputBox">
+                    <input type="number" name="codigo" id="codigo" class="inputUser" required>
+                    <label for="codigo" class="labelInput">Código</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="fornecedor" id="fornecedor" class="inputUser" required>
+                    <label for="fornecedor" class="labelInput">Fornecedor</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="descricaoProduto" id="descricaoProduto" class="inputUser" required>
+                    <label for="descricaoProduto" class="labelInput">Descrição do Produto</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="marca" id="marca" class="inputUser" required>
+                    <label for="marca" class="labelInput">Marca</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="modelo" id="modelo" class="inputUser" required>
+                    <label for="modelo" class="labelInput">Modelo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="number" name="quantidade" id="quantidade" class="inputUser" required>
+                    <label for="quantidade" class="labelInput">Quantidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="observacoes" id="observacoes" class="inputUser" required>
+                    <label for="observacoes" class="labelInput">Observações</label>
+                </div>
+                <br><br><br><br><br><br>
+                <input type="submit" name="submit" id="submit">
+                <br>
+            </fieldset>
+        </form>        
+    </div>
+    <footer>
+        <p>2021 (C) Developed by Rodrigo Lisboa</p>
+        <div class="footer"></div>
+    </footer>
+</body>
+<script src="./JS/scrip.js"></script>
+<script src="./JS/cadClientes.js"></script>
+<script src="./JS/cadProdutos.js"></script>
+</html>
